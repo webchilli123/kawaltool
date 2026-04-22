@@ -1,0 +1,4 @@
+Query,Time-In-MilliSeconds
+update `users` set `password` = '$2y$12$nLikNsga/O4x0KIGyNSVXuiAgKbM64UcITnuclWZdgzO/JhSnpsSC', `users`.`updated_at` = '2025-09-04 07:00:39' where `id` = '3', 1.54
+delete from `cache` where `key` in ('laravel_cache_User-id-display_name_with_id', 'laravel_cache_illuminate:cache:flexible:created:User-id-display_name_with_id'), 0.43
+delete from `cache` where `key` in ('laravel_cache_User', 'laravel_cache_illuminate:cache:flexible:created:User'), 0.42

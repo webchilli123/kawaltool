@@ -1,0 +1,5 @@
+Query,Time-In-MilliSeconds
+insert into `users` (`name`, `dont_send_email`, `is_active`, `password`, `email`, `created_by`, `updated_at`, `created_at`) values ('krishma', '0', '1', '$2y$12$w2HoV.g1dMccdLsMVkd8eef57diHPsnx715z5DbCoIhNsB0GAF7Oe', 'krishma@webchilli.com', '1', '2025-08-29 10:00:22', '2025-08-29 10:00:22'), 1.19
+delete from `cache` where `key` in ('laravel_cache_User-id-display_name_with_id', 'laravel_cache_illuminate:cache:flexible:created:User-id-display_name_with_id'), 0.34
+delete from `cache` where `key` in ('laravel_cache_User', 'laravel_cache_illuminate:cache:flexible:created:User'), 0.3
+insert into `user_roles` (`role_id`, `user_id`) values ('3', '2'), 1.35

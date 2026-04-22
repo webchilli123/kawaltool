@@ -1,0 +1,14 @@
+Query,Time-In-MilliSeconds
+delete from `role_route_names` where `id` = '8', 2.89
+delete from `role_route_names` where `id` = '9', 1.41
+delete from `role_route_names` where `id` = '10', 2.52
+delete from `role_route_names` where `id` = '11', 2.33
+delete from `role_route_names` where `id` = '12', 2.14
+delete from `role_route_names` where `id` = '13', 2.32
+delete from `role_route_names` where `id` = '14', 1.83
+delete from `role_route_names` where `id` = '15', 2.09
+delete from `role_route_names` where `id` = '16', 1.71
+delete from `role_route_names` where `id` = '17', 2.19
+delete from `role_route_names` where `id` = '18', 2.16
+delete from `role_route_names` where `id` = '19', 2.13
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 1.91

@@ -1,0 +1,5 @@
+Query,Time-In-MilliSeconds
+insert into `roles` (`is_admin`, `is_active`, `name`, `created_by`, `updated_at`, `created_at`) values ('0', '1', 'Sales', '1', '2025-08-29 09:58:54', '2025-08-29 09:58:54'), 0.82
+update `users` set `used_in_other_table_created_by` = '[{"table":"roles","label":"Role","counter":1,"last_id":3}]', `updated_by` = '1', `users`.`updated_at` = '2025-08-29 09:58:54' where `id` = '1', 0.88
+delete from `cache` where `key` in ('laravel_cache_User-id-display_name_with_id', 'laravel_cache_illuminate:cache:flexible:created:User-id-display_name_with_id'), 0.68
+delete from `cache` where `key` in ('laravel_cache_User', 'laravel_cache_illuminate:cache:flexible:created:User'), 6.04

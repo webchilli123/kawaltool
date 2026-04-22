@@ -1,0 +1,6 @@
+Query,Time-In-MilliSeconds
+select * from `sessions` where `id` = 'hJ0tBq7x1kHZ67GQpnXp3w6MxBdistNTJ1d5W6NL' limit 1, 0.36
+select * from `users` where `id` = '1' limit 1, 0.35
+select * from `parties` where `parties`.`id` = '1' limit 1, 0.31
+select * from `cities` where `cities`.`id` in (3225), 0.26
+select * from `states` where `states`.`id` in (32), 0.26

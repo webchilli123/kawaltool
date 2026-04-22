@@ -1,0 +1,45 @@
+Query,Time-In-MilliSeconds
+insert into `cache` (`expiration`, `key`, `value`) values ('2081154531', 'laravel_cache_table-info-route_names', 'a:1:{s:7:"columns";a:4:{s:2:"id";a:6:{s:5:"Field";s:2:"id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"PRI";s:7:"Default";N;s:5:"Extra";s:14:"auto_increment";}s:4:"name";a:6:{s:5:"Field";s:4:"name";s:4:"Type";s:12:"varchar(255)";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"UNI";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_at";a:6:{s:5:"Field";s:10:"created_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_at";a:6:{s:5:"Field";s:10:"updated_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}}}') on duplicate key update `expiration` = values(`expiration`), `key` = values(`key`), `value` = values(`value`), 0.32
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.activate', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.5
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.ajax_get', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.create', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.de_activate', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.destroy', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.edit', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.27
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.index', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.55
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.show', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.store', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('party.update', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 1.14
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('product.ajax_get', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.27
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.ajax_get_items', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.26
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.create', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.csv', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.destroy', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.edit', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.index', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.pdf', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.show', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.store', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('purchase-bill.update', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.24
+insert into `cache` (`expiration`, `key`, `value`) values ('2081154531', 'laravel_cache_table-info-role_route_names', 'a:1:{s:7:"columns";a:7:{s:2:"id";a:6:{s:5:"Field";s:2:"id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"PRI";s:7:"Default";N;s:5:"Extra";s:14:"auto_increment";}s:7:"role_id";a:6:{s:5:"Field";s:7:"role_id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"MUL";s:7:"Default";N;s:5:"Extra";s:0:"";}s:13:"route_name_id";a:6:{s:5:"Field";s:13:"route_name_id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"MUL";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_at";a:6:{s:5:"Field";s:10:"created_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_at";a:6:{s:5:"Field";s:10:"updated_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_by";a:6:{s:5:"Field";s:10:"created_by";s:4:"Type";s:10:"bigint(20)";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_by";a:6:{s:5:"Field";s:10:"updated_by";s:4:"Type";s:10:"bigint(20)";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}}}') on duplicate key update `expiration` = values(`expiration`), `key` = values(`key`), `value` = values(`value`), 0.28
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '103', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '100', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '105', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '102', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '106', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '101', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.88
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '171', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.32
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '167', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.28
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '174', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '170', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '175', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '169', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '168', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '172', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.35
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '161', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '157', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '163', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '160', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '164', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '159', '1', '2025-12-15 10:28:51', '2025-12-15 10:28:51'), 0.25
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 0.3

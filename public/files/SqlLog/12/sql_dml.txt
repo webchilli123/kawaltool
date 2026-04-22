@@ -1,0 +1,18 @@
+Query,Time-In-MilliSeconds
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.activate', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.3
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.create', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.csv', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.de_activate', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 1.54
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.destroy', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.edit', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.index', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.26
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.show', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.store', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('warehouse.update', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.22
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '123', '1', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.28
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '118', '1', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '125', '1', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '122', '1', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '126', '1', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '121', '1', '2025-12-11 08:50:44', '2025-12-11 08:50:44'), 0.24
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 0.26

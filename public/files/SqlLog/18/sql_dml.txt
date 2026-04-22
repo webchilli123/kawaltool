@@ -1,0 +1,5 @@
+Query,Time-In-MilliSeconds
+update `users` set `name` = 'Rovepreets', `updated_by` = '1', `users`.`updated_at` = '2025-09-04 07:00:00' where `id` = '3', 1.18
+delete from `cache` where `key` in ('laravel_cache_User-id-display_name_with_id', 'laravel_cache_illuminate:cache:flexible:created:User-id-display_name_with_id'), 0.4
+delete from `cache` where `key` in ('laravel_cache_User', 'laravel_cache_illuminate:cache:flexible:created:User'), 0.33
+delete from `cache` where `key` in ('laravel_cache_menu_user_3', 'laravel_cache_illuminate:cache:flexible:created:menu_user_3'), 0.3

@@ -1,0 +1,4 @@
+Query,Time-In-MilliSeconds
+select * from `sessions` where `id` = '7zgxqrGQCjn46gqvK2WXNC9N4wa59qvLvBCg4UAo' limit 1, 0.53
+select * from `users` where `id` = '1' limit 1, 0.61
+select * from `items` where `items`.`id` = '1' and `items`.`deleted_at` is null limit 1, 2.62

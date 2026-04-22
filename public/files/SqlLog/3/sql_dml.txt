@@ -1,0 +1,7 @@
+Query,Time-In-MilliSeconds
+delete from `role_route_names` where `id` = '2', 2.69
+delete from `role_route_names` where `id` = '3', 2.65
+delete from `role_route_names` where `id` = '4', 1.83
+delete from `role_route_names` where `id` = '5', 2.17
+delete from `role_route_names` where `id` = '6', 2.05
+delete from `role_route_names` where `id` = '7', 1.81

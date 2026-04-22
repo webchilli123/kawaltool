@@ -1,0 +1,18 @@
+Query,Time-In-MilliSeconds
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('get-lead', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 5.42
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.create', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.26
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.destroy', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.84
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.edit', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.13
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.import', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.11
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.index', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.16
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.show', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.store', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.13
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.update', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('lead.updateMissed', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.33
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '223', '1', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.64
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '219', '1', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.15
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '225', '1', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '221', '1', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.32
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '226', '1', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.33
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '220', '1', '2026-02-14 11:57:18', '2026-02-14 11:57:18'), 1.44
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 1.33

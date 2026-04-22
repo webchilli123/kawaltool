@@ -1,0 +1,467 @@
+Query,Time-In-MilliSeconds
+select * from `sessions` where `id` = 'MeAy96kxC0lcvAvWU6tedA2dLfzW3ANyYPmJcoJX' limit 1, 8.68
+select * from `users` where `id` = '1' limit 1, 1.12
+select `name`, `id` from `route_names`, 2.21
+select count(*) as aggregate from `route_names` where (`name` = 'cities.ajax_get'), 8.17
+select column_name as `name`, data_type as `type_name`, column_type as `type`, collation_name as `collation`, is_nullable as `nullable`, column_default as `default`, column_comment as `comment`, generation_expression as `expression`, extra as `extra` from information_schema.columns where table_schema = schema() and table_name = 'route_names' order by ordinal_position asc, 1.04
+select * from `cache` where `key` in ('laravel_cache_table-info-route_names'), 0.25
+SHOW COLUMNS FROM route_names, 1.32
+insert into `cache` (`expiration`, `key`, `value`) values ('2080712684', 'laravel_cache_table-info-route_names', 'a:1:{s:7:"columns";a:4:{s:2:"id";a:6:{s:5:"Field";s:2:"id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"PRI";s:7:"Default";N;s:5:"Extra";s:14:"auto_increment";}s:4:"name";a:6:{s:5:"Field";s:4:"name";s:4:"Type";s:12:"varchar(255)";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"UNI";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_at";a:6:{s:5:"Field";s:10:"created_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_at";a:6:{s:5:"Field";s:10:"updated_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}}}') on duplicate key update `expiration` = values(`expiration`), `key` = values(`key`), `value` = values(`value`), 0.28
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.ajax_get', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.55
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.8
+select count(*) as aggregate from `route_names` where (`name` = 'cities.ajax_get_list'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.ajax_get_list', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.26
+select count(*) as aggregate from `route_names` where (`name` = 'cities.create'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.72
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.29
+select count(*) as aggregate from `route_names` where (`name` = 'cities.destroy'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.33
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.26
+select count(*) as aggregate from `route_names` where (`name` = 'cities.edit'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.27
+select count(*) as aggregate from `route_names` where (`name` = 'cities.index'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.27
+select count(*) as aggregate from `route_names` where (`name` = 'cities.options'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.options', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.29
+select count(*) as aggregate from `route_names` where (`name` = 'cities.store'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'cities.update'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'companies.index'), 0.28
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('companies.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'companies.update'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('companies.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'dashboard'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('dashboard', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'dashboard.ajax_admin_role_counters'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('dashboard.ajax_admin_role_counters', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'department.activate'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'department.create'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'department.de_activate'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'department.destroy'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'department.edit'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'department.index'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'department.show'), 0.29
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'department.store'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'department.update'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.19
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'designation.activate'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 12.6
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'designation.create'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'designation.de_activate'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'designation.destroy'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'designation.edit'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'designation.index'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'designation.show'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.26
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'designation.store'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'designation.update'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'developer.laravel_routes_index'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('developer.laravel_routes_index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'developer.sql_log'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('developer.sql_log', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'employee.activate'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'employee.create'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'employee.de_activate'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'employee.destroy'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'employee.edit'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'employee.index'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'employee.show'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'employee.store'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.26
+select count(*) as aggregate from `route_names` where (`name` = 'employee.update'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'home'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('home', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'login'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('login', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'logout'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('logout', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'logs.email'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('logs.email', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.36
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'password.confirm'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.confirm', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'password.email'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.email', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'password.email'), 0.22
+select `id` from `route_names` where (`name` = 'password.email') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'password.request'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.request', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'password.request'), 0.22
+select `id` from `route_names` where (`name` = 'password.request') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'password.reset'), 16.97
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.reset', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 3.68
+select count(*) as aggregate from `route_names` where (`name` = 'password.update'), 2.97
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 2.84
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.ajax_delete'), 2.12
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.ajax_delete', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.65
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.ajax_get_permissions'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.ajax_get_permissions', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.46
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.ajax_request_access'), 1.19
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.ajax_request_access', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.54
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 4.2
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.assign'), 0.5
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.assign', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.56
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.assign_to_many'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.assign_to_many', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 6.42
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.index'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'public.'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('public.', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'public.'), 1.29
+select `id` from `route_names` where (`name` = 'public.') limit 1, 0.81
+select count(*) as aggregate from `route_names` where (`name` = 'register'), 11.53
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('register', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 2.67
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 1.67
+select count(*) as aggregate from `route_names` where (`name` = 'role.activate'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.78
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 3.73
+select count(*) as aggregate from `route_names` where (`name` = 'role.create'), 9.77
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 7.91
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 9.79
+select count(*) as aggregate from `route_names` where (`name` = 'role.de_activate'), 7.76
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 10.78
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 13.47
+select count(*) as aggregate from `route_names` where (`name` = 'role.destroy'), 11.07
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.9
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 1.51
+select count(*) as aggregate from `route_names` where (`name` = 'role.edit'), 0.94
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 5.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'role.index'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 6.96
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.34
+select count(*) as aggregate from `route_names` where (`name` = 'role.show'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 1.76
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 8.6
+select count(*) as aggregate from `route_names` where (`name` = 'role.store'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'role.update'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'sanctum.csrf-cookie'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('sanctum.csrf-cookie', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'settings.general'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('settings.general', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.activate'), 5.43
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.57
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 3.09
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.ajax_get'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.ajax_get', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.create'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 6.03
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.de_activate'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.destroy'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.edit'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.index'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 4.01
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.show'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.store'), 0.19
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.update'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'state.create'), 1.34
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 8.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.3
+select count(*) as aggregate from `route_names` where (`name` = 'state.destroy'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'state.edit'), 16.44
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'state.index'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'state.show'), 0.3
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.33
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.26
+select count(*) as aggregate from `route_names` where (`name` = 'state.store'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'state.update'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'storage.local'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('storage.local', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.3
+select count(*) as aggregate from `route_names` where (`name` = 'user.activate'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.29
+select count(*) as aggregate from `route_names` where (`name` = 'user.change.password'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.change.password', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'user.create'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.de_activate'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.destroy'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'user.edit'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.index'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.my.profile'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.my.profile', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'user.store'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.34
+select count(*) as aggregate from `route_names` where (`name` = 'user.update'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.33
+select count(*) as aggregate from `route_names` where (`name` = 'verify.otp'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('verify.otp', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.26
+select * from `cache` where `key` in ('laravel_cache_Route-Name'), 0.31
+select * from `roles` where `roles`.`id` = '1' limit 1, 0.29
+select `id` from `role_route_names` where `role_id` = '1', 0.29
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '12'), 0.3
+select column_name as `name`, data_type as `type_name`, column_type as `type`, collation_name as `collation`, is_nullable as `nullable`, column_default as `default`, column_comment as `comment`, generation_expression as `expression`, extra as `extra` from information_schema.columns where table_schema = schema() and table_name = 'role_route_names' order by ordinal_position asc, 1.03
+select * from `cache` where `key` in ('laravel_cache_table-info-role_route_names'), 0.25
+SHOW COLUMNS FROM role_route_names, 1.3
+insert into `cache` (`expiration`, `key`, `value`) values ('2080712684', 'laravel_cache_table-info-role_route_names', 'a:1:{s:7:"columns";a:7:{s:2:"id";a:6:{s:5:"Field";s:2:"id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"PRI";s:7:"Default";N;s:5:"Extra";s:14:"auto_increment";}s:7:"role_id";a:6:{s:5:"Field";s:7:"role_id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"MUL";s:7:"Default";N;s:5:"Extra";s:0:"";}s:13:"route_name_id";a:6:{s:5:"Field";s:13:"route_name_id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"MUL";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_at";a:6:{s:5:"Field";s:10:"created_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_at";a:6:{s:5:"Field";s:10:"updated_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_by";a:6:{s:5:"Field";s:10:"created_by";s:4:"Type";s:10:"bigint(20)";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_by";a:6:{s:5:"Field";s:10:"updated_by";s:4:"Type";s:10:"bigint(20)";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}}}') on duplicate key update `expiration` = values(`expiration`), `key` = values(`key`), `value` = values(`value`), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '12', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.33
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.31
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '19'), 0.33
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '19', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.4
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '15'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '15', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.3
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '21'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '21', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.3
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '18'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '18', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.31
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '22'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '22', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.3
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '17'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '17', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '28'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '28', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.26
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '24'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '24', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '30'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '30', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '27'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '27', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.23
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '31'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '31', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '26'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '26', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.3
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '39'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '39', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '35'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '35', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.2
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '41'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '41', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '38'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '38', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '42'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '42', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '37'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '37', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '10'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '10', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '11'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '11', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '6'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '6', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '3'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '3', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '8'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '8', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '5'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '5', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.2
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '9'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '9', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '4'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '4', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.29
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '7'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '7', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.2
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '77'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '77', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.2
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '73'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '73', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '79'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '79', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '76'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '76', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '80'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '80', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '75'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '75', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '70'), 0.29
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '70', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.2
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '95'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '95', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '91'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '91', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.23
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '97'), 0.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '97', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '94'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '94', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.2
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '98'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '98', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '93'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '93', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '65'), 0.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '65', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '61'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '61', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '67'), 0.3
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '67', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.23
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '64'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '64', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '68'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '68', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '63'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '63', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '33'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '33', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.22
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '32'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '32', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+select * from `cache` where `key` in ('laravel_cache_Role-Route-Name'), 0.21
+select `id` from `users`, 0.2
+select * from `cache` where `key` in ('laravel_cache_menu_user_1'), 0.22
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 0.24

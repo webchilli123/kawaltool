@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Redirect all requests to the public directory
+RewriteRule ^(.*)$ public/$1 [L]
+
+# Disable directory indexing
+Options -Indexes
+

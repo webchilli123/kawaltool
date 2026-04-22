@@ -1,0 +1,4 @@
+Query,Time-In-MilliSeconds
+select * from `sessions` where `id` = 'warGxJussE2jEpuQMmrXrqvJiHiVPcNtkaDAaMwi' limit 1, 0.31
+select * from `users` where `id` = '1' limit 1, 0.33
+select * from `cities` where `state_id` = '32' order by `name` asc, 1.02

@@ -1,0 +1,15 @@
+Query,Time-In-MilliSeconds
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '328', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 2.81
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '176', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 1.98
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '173', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 1.86
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '178', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 4.18
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '175', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 1.91
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '179', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 2.44
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '174', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 2.19
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '14', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 1.47
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '11', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 1.89
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '16', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 2.14
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '13', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 2.1
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '17', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 2.12
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '12', '1', '2025-08-29 09:41:29', '2025-08-29 09:41:29'), 2.16
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 2.07

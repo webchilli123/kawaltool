@@ -1,0 +1,14 @@
+Query,Time-In-MilliSeconds
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '65', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 2.68
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '61', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 1.81
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '67', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 2.14
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '64', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 1.8
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '68', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 2.22
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '63', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 2.65
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '74', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 1.86
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '70', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 1.92
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '76', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 1.9
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '73', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 1.76
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '77', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 2.84
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '72', '1', '2025-08-29 08:56:01', '2025-08-29 08:56:01'), 1.86
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 1.98

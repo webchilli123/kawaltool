@@ -1,0 +1,527 @@
+Query,Time-In-MilliSeconds
+select * from `sessions` where `id` = 'warGxJussE2jEpuQMmrXrqvJiHiVPcNtkaDAaMwi' limit 1, 0.31
+select * from `users` where `id` = '1' limit 1, 0.31
+select `name`, `id` from `route_names`, 0.36
+select count(*) as aggregate from `route_names` where (`name` = 'auto-increaments.create'), 0.24
+select `id` from `route_names` where (`name` = 'auto-increaments.create') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'auto-increaments.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'auto-increaments.destroy') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'auto-increaments.edit'), 0.26
+select `id` from `route_names` where (`name` = 'auto-increaments.edit') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'auto-increaments.index'), 0.21
+select `id` from `route_names` where (`name` = 'auto-increaments.index') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'auto-increaments.show'), 0.22
+select `id` from `route_names` where (`name` = 'auto-increaments.show') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'auto-increaments.store'), 0.21
+select `id` from `route_names` where (`name` = 'auto-increaments.store') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'auto-increaments.update'), 0.21
+select `id` from `route_names` where (`name` = 'auto-increaments.update') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'brand.activate'), 0.2
+select `id` from `route_names` where (`name` = 'brand.activate') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'brand.ajax_get'), 0.2
+select `id` from `route_names` where (`name` = 'brand.ajax_get') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'brand.create'), 0.21
+select `id` from `route_names` where (`name` = 'brand.create') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'brand.csv'), 0.22
+select `id` from `route_names` where (`name` = 'brand.csv') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'brand.de_activate'), 0.2
+select `id` from `route_names` where (`name` = 'brand.de_activate') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'brand.destroy'), 0.2
+select `id` from `route_names` where (`name` = 'brand.destroy') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'brand.edit'), 0.19
+select `id` from `route_names` where (`name` = 'brand.edit') limit 1, 0.19
+select count(*) as aggregate from `route_names` where (`name` = 'brand.index'), 0.19
+select `id` from `route_names` where (`name` = 'brand.index') limit 1, 0.18
+select count(*) as aggregate from `route_names` where (`name` = 'brand.show'), 0.2
+select `id` from `route_names` where (`name` = 'brand.show') limit 1, 0.19
+select count(*) as aggregate from `route_names` where (`name` = 'brand.store'), 0.2
+select `id` from `route_names` where (`name` = 'brand.store') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'brand.update'), 0.23
+select `id` from `route_names` where (`name` = 'brand.update') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'cities.ajax_get'), 0.21
+select `id` from `route_names` where (`name` = 'cities.ajax_get') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'cities.ajax_get_list'), 0.21
+select `id` from `route_names` where (`name` = 'cities.ajax_get_list') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'cities.create'), 0.22
+select `id` from `route_names` where (`name` = 'cities.create') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'cities.destroy'), 0.21
+select `id` from `route_names` where (`name` = 'cities.destroy') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'cities.edit'), 0.22
+select `id` from `route_names` where (`name` = 'cities.edit') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'cities.index'), 0.21
+select `id` from `route_names` where (`name` = 'cities.index') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'cities.options'), 0.23
+select `id` from `route_names` where (`name` = 'cities.options') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'cities.store'), 0.21
+select `id` from `route_names` where (`name` = 'cities.store') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'cities.update'), 0.2
+select `id` from `route_names` where (`name` = 'cities.update') limit 1, 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'companies.index'), 0.23
+select `id` from `route_names` where (`name` = 'companies.index') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'companies.update'), 0.22
+select `id` from `route_names` where (`name` = 'companies.update') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'complaint.create'), 0.23
+select `id` from `route_names` where (`name` = 'complaint.create') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'complaint.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'complaint.destroy') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'complaint.edit'), 0.22
+select `id` from `route_names` where (`name` = 'complaint.edit') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'complaint.index'), 0.24
+select `id` from `route_names` where (`name` = 'complaint.index') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'complaint.show'), 0.22
+select `id` from `route_names` where (`name` = 'complaint.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'complaint.store'), 0.22
+select `id` from `route_names` where (`name` = 'complaint.store') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'complaint.update'), 0.23
+select `id` from `route_names` where (`name` = 'complaint.update') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'dashboard'), 0.23
+select `id` from `route_names` where (`name` = 'dashboard') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'dashboard.ajax_admin_role_counters'), 0.22
+select `id` from `route_names` where (`name` = 'dashboard.ajax_admin_role_counters') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'department.activate'), 0.23
+select `id` from `route_names` where (`name` = 'department.activate') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'department.create'), 0.23
+select `id` from `route_names` where (`name` = 'department.create') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'department.de_activate'), 0.22
+select `id` from `route_names` where (`name` = 'department.de_activate') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'department.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'department.destroy') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'department.edit'), 0.22
+select `id` from `route_names` where (`name` = 'department.edit') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'department.index'), 0.22
+select `id` from `route_names` where (`name` = 'department.index') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'department.show'), 0.21
+select `id` from `route_names` where (`name` = 'department.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'department.store'), 0.21
+select `id` from `route_names` where (`name` = 'department.store') limit 1, 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'department.update'), 0.22
+select `id` from `route_names` where (`name` = 'department.update') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'designation.activate'), 0.2
+select `id` from `route_names` where (`name` = 'designation.activate') limit 1, 0.19
+select count(*) as aggregate from `route_names` where (`name` = 'designation.create'), 0.22
+select `id` from `route_names` where (`name` = 'designation.create') limit 1, 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'designation.de_activate'), 0.22
+select `id` from `route_names` where (`name` = 'designation.de_activate') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'designation.destroy'), 0.22
+select `id` from `route_names` where (`name` = 'designation.destroy') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'designation.edit'), 0.22
+select `id` from `route_names` where (`name` = 'designation.edit') limit 1, 0.29
+select count(*) as aggregate from `route_names` where (`name` = 'designation.index'), 0.23
+select `id` from `route_names` where (`name` = 'designation.index') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'designation.show'), 0.23
+select `id` from `route_names` where (`name` = 'designation.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'designation.store'), 0.23
+select `id` from `route_names` where (`name` = 'designation.store') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'designation.update'), 0.23
+select `id` from `route_names` where (`name` = 'designation.update') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'developer.laravel_routes_index'), 0.24
+select `id` from `route_names` where (`name` = 'developer.laravel_routes_index') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'developer.sql_log'), 0.24
+select `id` from `route_names` where (`name` = 'developer.sql_log') limit 1, 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'employee.activate'), 0.24
+select `id` from `route_names` where (`name` = 'employee.activate') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'employee.create'), 0.23
+select `id` from `route_names` where (`name` = 'employee.create') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'employee.de_activate'), 0.24
+select `id` from `route_names` where (`name` = 'employee.de_activate') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'employee.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'employee.destroy') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'employee.edit'), 0.21
+select `id` from `route_names` where (`name` = 'employee.edit') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'employee.index'), 0.24
+select `id` from `route_names` where (`name` = 'employee.index') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'employee.show'), 0.23
+select `id` from `route_names` where (`name` = 'employee.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'employee.store'), 0.23
+select `id` from `route_names` where (`name` = 'employee.store') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'employee.update'), 0.22
+select `id` from `route_names` where (`name` = 'employee.update') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'home'), 0.21
+select `id` from `route_names` where (`name` = 'home') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'item.activate'), 0.21
+select `id` from `route_names` where (`name` = 'item.activate') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'item.ajax_get'), 0.24
+select `id` from `route_names` where (`name` = 'item.ajax_get') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'item.create'), 0.23
+select `id` from `route_names` where (`name` = 'item.create') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'item.csv'), 0.22
+select `id` from `route_names` where (`name` = 'item.csv') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'item.de_activate'), 0.26
+select `id` from `route_names` where (`name` = 'item.de_activate') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'item.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'item.destroy') limit 1, 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'item.edit'), 0.24
+select `id` from `route_names` where (`name` = 'item.edit') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'item.index'), 0.29
+select `id` from `route_names` where (`name` = 'item.index') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'item.show'), 0.28
+select `id` from `route_names` where (`name` = 'item.show') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'item.stock.detail'), 0.23
+select `id` from `route_names` where (`name` = 'item.stock.detail') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'item.store'), 0.24
+select `id` from `route_names` where (`name` = 'item.store') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'item.update'), 0.23
+select `id` from `route_names` where (`name` = 'item.update') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'login'), 0.22
+select `id` from `route_names` where (`name` = 'login') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'logout'), 0.23
+select `id` from `route_names` where (`name` = 'logout') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'logs.email'), 0.24
+select `id` from `route_names` where (`name` = 'logs.email') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'party.activate'), 0.24
+select `id` from `route_names` where (`name` = 'party.activate') limit 1, 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'party.ajax_get'), 0.22
+select `id` from `route_names` where (`name` = 'party.ajax_get') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'party.create'), 0.24
+select `id` from `route_names` where (`name` = 'party.create') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'party.de_activate'), 0.23
+select `id` from `route_names` where (`name` = 'party.de_activate') limit 1, 0.26
+select count(*) as aggregate from `route_names` where (`name` = 'party.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'party.destroy') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'party.edit'), 0.24
+select `id` from `route_names` where (`name` = 'party.edit') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'party.index'), 0.24
+select `id` from `route_names` where (`name` = 'party.index') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'party.show'), 0.24
+select `id` from `route_names` where (`name` = 'party.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'party.store'), 0.23
+select `id` from `route_names` where (`name` = 'party.store') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'party.update'), 0.24
+select `id` from `route_names` where (`name` = 'party.update') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'password.confirm'), 0.22
+select `id` from `route_names` where (`name` = 'password.confirm') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'password.email'), 0.21
+select `id` from `route_names` where (`name` = 'password.email') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'password.email'), 0.22
+select `id` from `route_names` where (`name` = 'password.email') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'password.request'), 0.23
+select `id` from `route_names` where (`name` = 'password.request') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'password.request'), 0.24
+select `id` from `route_names` where (`name` = 'password.request') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'password.reset'), 0.24
+select `id` from `route_names` where (`name` = 'password.reset') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'password.update'), 0.24
+select `id` from `route_names` where (`name` = 'password.update') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.ajax_delete'), 0.25
+select `id` from `route_names` where (`name` = 'permissions.ajax_delete') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.ajax_get_permissions'), 0.29
+select `id` from `route_names` where (`name` = 'permissions.ajax_get_permissions') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.ajax_request_access'), 0.23
+select `id` from `route_names` where (`name` = 'permissions.ajax_request_access') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.assign'), 0.24
+select `id` from `route_names` where (`name` = 'permissions.assign') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.assign_to_many'), 1.16
+select `id` from `route_names` where (`name` = 'permissions.assign_to_many') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'permissions.index'), 0.23
+select `id` from `route_names` where (`name` = 'permissions.index') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'product.activate'), 0.22
+select `id` from `route_names` where (`name` = 'product.activate') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'product.ajax_get'), 0.23
+select `id` from `route_names` where (`name` = 'product.ajax_get') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'product.create'), 0.21
+select `id` from `route_names` where (`name` = 'product.create') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'product.csv'), 0.22
+select `id` from `route_names` where (`name` = 'product.csv') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'product.de_activate'), 0.23
+select `id` from `route_names` where (`name` = 'product.de_activate') limit 1, 0.2
+select count(*) as aggregate from `route_names` where (`name` = 'product.destroy'), 0.22
+select `id` from `route_names` where (`name` = 'product.destroy') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'product.edit'), 0.23
+select `id` from `route_names` where (`name` = 'product.edit') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'product.index'), 0.25
+select `id` from `route_names` where (`name` = 'product.index') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'product.show'), 0.22
+select `id` from `route_names` where (`name` = 'product.show') limit 1, 0.26
+select count(*) as aggregate from `route_names` where (`name` = 'product.store'), 0.24
+select `id` from `route_names` where (`name` = 'product.store') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'product.update'), 0.23
+select `id` from `route_names` where (`name` = 'product.update') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'public.'), 0.23
+select `id` from `route_names` where (`name` = 'public.') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'public.'), 0.22
+select `id` from `route_names` where (`name` = 'public.') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.ajax_get_items'), 0.23
+select `id` from `route_names` where (`name` = 'purchase-bill.ajax_get_items') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.create'), 0.22
+select `id` from `route_names` where (`name` = 'purchase-bill.create') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.csv'), 0.24
+select `id` from `route_names` where (`name` = 'purchase-bill.csv') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'purchase-bill.destroy') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.edit'), 0.26
+select `id` from `route_names` where (`name` = 'purchase-bill.edit') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.index'), 0.22
+select `id` from `route_names` where (`name` = 'purchase-bill.index') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.pdf'), 0.24
+select `id` from `route_names` where (`name` = 'purchase-bill.pdf') limit 1, 0.27
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.show'), 0.25
+select `id` from `route_names` where (`name` = 'purchase-bill.show') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.store'), 0.26
+select `id` from `route_names` where (`name` = 'purchase-bill.store') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'purchase-bill.update'), 0.24
+select `id` from `route_names` where (`name` = 'purchase-bill.update') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'register'), 0.24
+select `id` from `route_names` where (`name` = 'register') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'reports.inventory'), 0.33
+select `id` from `route_names` where (`name` = 'reports.inventory') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'reports.itemStock'), 0.23
+select `id` from `route_names` where (`name` = 'reports.itemStock') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'reports.joborder'), 0.24
+select `id` from `route_names` where (`name` = 'reports.joborder') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'reports.joborderreceive'), 0.22
+select `id` from `route_names` where (`name` = 'reports.joborderreceive') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'reports.ledger'), 0.24
+select `id` from `route_names` where (`name` = 'reports.ledger') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'role.activate'), 0.21
+select `id` from `route_names` where (`name` = 'role.activate') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'role.create'), 0.23
+select `id` from `route_names` where (`name` = 'role.create') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'role.de_activate'), 0.24
+select `id` from `route_names` where (`name` = 'role.de_activate') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'role.destroy'), 0.22
+select `id` from `route_names` where (`name` = 'role.destroy') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'role.edit'), 0.23
+select `id` from `route_names` where (`name` = 'role.edit') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'role.index'), 0.25
+select `id` from `route_names` where (`name` = 'role.index') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'role.show'), 0.22
+select `id` from `route_names` where (`name` = 'role.show') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'role.store'), 0.27
+select `id` from `route_names` where (`name` = 'role.store') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'role.update'), 0.26
+select `id` from `route_names` where (`name` = 'role.update') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'sanctum.csrf-cookie'), 0.25
+select `id` from `route_names` where (`name` = 'sanctum.csrf-cookie') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'settings.general'), 0.23
+select `id` from `route_names` where (`name` = 'settings.general') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.activate'), 0.24
+select `id` from `route_names` where (`name` = 'staff-type.activate') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.ajax_get'), 0.23
+select `id` from `route_names` where (`name` = 'staff-type.ajax_get') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.create'), 0.23
+select `id` from `route_names` where (`name` = 'staff-type.create') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.de_activate'), 0.22
+select `id` from `route_names` where (`name` = 'staff-type.de_activate') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.destroy'), 0.24
+select `id` from `route_names` where (`name` = 'staff-type.destroy') limit 1, 0.27
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.edit'), 0.24
+select `id` from `route_names` where (`name` = 'staff-type.edit') limit 1, 0.25
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.index'), 0.23
+select `id` from `route_names` where (`name` = 'staff-type.index') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.show'), 0.24
+select `id` from `route_names` where (`name` = 'staff-type.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.store'), 0.23
+select `id` from `route_names` where (`name` = 'staff-type.store') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'staff-type.update'), 0.24
+select `id` from `route_names` where (`name` = 'staff-type.update') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'state.create'), 0.23
+select `id` from `route_names` where (`name` = 'state.create') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'state.destroy'), 0.22
+select `id` from `route_names` where (`name` = 'state.destroy') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'state.edit'), 0.21
+select `id` from `route_names` where (`name` = 'state.edit') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'state.index'), 0.22
+select `id` from `route_names` where (`name` = 'state.index') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'state.show'), 0.26
+select `id` from `route_names` where (`name` = 'state.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'state.store'), 0.23
+select `id` from `route_names` where (`name` = 'state.store') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'state.update'), 0.24
+select `id` from `route_names` where (`name` = 'state.update') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'storage.local'), 0.24
+select `id` from `route_names` where (`name` = 'storage.local') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.activate'), 0.24
+select `id` from `route_names` where (`name` = 'user.activate') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'user.change.password'), 0.25
+select `id` from `route_names` where (`name` = 'user.change.password') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'user.create'), 0.22
+select `id` from `route_names` where (`name` = 'user.create') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'user.de_activate'), 0.22
+select `id` from `route_names` where (`name` = 'user.de_activate') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'user.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'user.destroy') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'user.edit'), 0.23
+select `id` from `route_names` where (`name` = 'user.edit') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.index'), 0.25
+select `id` from `route_names` where (`name` = 'user.index') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'user.my.profile'), 0.23
+select `id` from `route_names` where (`name` = 'user.my.profile') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.store'), 0.22
+select `id` from `route_names` where (`name` = 'user.store') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'user.update'), 0.25
+select `id` from `route_names` where (`name` = 'user.update') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'verify.otp'), 0.23
+select `id` from `route_names` where (`name` = 'verify.otp') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.activate'), 0.29
+select `id` from `route_names` where (`name` = 'warehouse.activate') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.create'), 0.23
+select `id` from `route_names` where (`name` = 'warehouse.create') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.csv'), 0.22
+select `id` from `route_names` where (`name` = 'warehouse.csv') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.de_activate'), 0.23
+select `id` from `route_names` where (`name` = 'warehouse.de_activate') limit 1, 0.22
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.destroy'), 0.23
+select `id` from `route_names` where (`name` = 'warehouse.destroy') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.edit'), 0.24
+select `id` from `route_names` where (`name` = 'warehouse.edit') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.index'), 0.23
+select `id` from `route_names` where (`name` = 'warehouse.index') limit 1, 0.24
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.show'), 0.24
+select `id` from `route_names` where (`name` = 'warehouse.show') limit 1, 0.23
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.store'), 0.22
+select `id` from `route_names` where (`name` = 'warehouse.store') limit 1, 0.21
+select count(*) as aggregate from `route_names` where (`name` = 'warehouse.update'), 0.22
+select `id` from `route_names` where (`name` = 'warehouse.update') limit 1, 0.23
+select * from `roles` where `roles`.`id` = '1' limit 1, 0.28
+select `id` from `role_route_names` where `role_id` = '1', 0.33
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '103'), 0.32
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '103') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '100'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '100') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '105'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '105') limit 1, 0.3
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '102'), 0.29
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '102') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '106'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '106') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '101'), 0.24
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '101') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '12'), 0.25
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '12') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '179'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '179') limit 1, 0.29
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '176'), 0.25
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '176') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '181'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '181') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '178'), 0.3
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '178') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '182'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '182') limit 1, 0.51
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '177'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '177') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '10'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '10') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '11'), 0.32
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '11') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '6'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '6') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '3'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '3') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '8'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '8') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '5'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '5') limit 1, 0.24
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '9'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '9') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '4'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '4') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '7'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '7') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '70'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '70') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '95'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '95') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '91'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '91') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '97'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '97') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '94'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '94') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '98'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '98') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '93'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '93') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '65'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '65') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '61'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '61') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '67'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '67') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '64'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '64') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '68'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '68') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '63'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '63') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '113'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '113') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '108'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '108') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '115'), 0.25
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '115') limit 1, 0.23
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '112'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '112') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '116'), 0.25
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '116') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '111'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '111') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '145'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '145') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '140'), 0.25
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '140') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '147'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '147') limit 1, 0.23
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '144'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '144') limit 1, 0.29
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '148'), 0.25
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '148') limit 1, 0.37
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '143'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '143') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '171'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '171') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '167'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '167') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '174'), 0.69
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '174') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '170'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '170') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '175'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '175') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '169'), 0.29
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '169') limit 1, 0.29
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '168'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '168') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '172'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '172') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '161'), 0.29
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '161') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '157'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '157') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '163'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '163') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '160'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '160') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '164'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '164') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '159'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '159') limit 1, 0.25
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '134'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '134') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '129'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '129') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '136'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '136') limit 1, 0.3
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '133'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '133') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '137'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '137') limit 1, 0.27
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '132'), 0.29
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '132') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '123'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '123') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '118'), 0.26
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '118') limit 1, 0.29
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '125'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '125') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '122'), 0.28
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '122') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '126'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '126') limit 1, 0.26
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '121'), 0.27
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '121') limit 1, 0.28
+select count(*) as aggregate from `role_route_names` where (`role_id` = '1' and `route_name_id` = '150'), 0.29
+select `id` from `role_route_names` where (`role_id` = '1' and `route_name_id` = '150') limit 1, 0.28
+select `id` from `users`, 0.24
+select * from `cache` where `key` in ('laravel_cache_menu_user_1'), 0.29
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 0.28

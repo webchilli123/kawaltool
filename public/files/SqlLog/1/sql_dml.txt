@@ -1,0 +1,152 @@
+Query,Time-In-MilliSeconds
+insert into `cache` (`expiration`, `key`, `value`) values ('2080712684', 'laravel_cache_table-info-route_names', 'a:1:{s:7:"columns";a:4:{s:2:"id";a:6:{s:5:"Field";s:2:"id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"PRI";s:7:"Default";N;s:5:"Extra";s:14:"auto_increment";}s:4:"name";a:6:{s:5:"Field";s:4:"name";s:4:"Type";s:12:"varchar(255)";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"UNI";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_at";a:6:{s:5:"Field";s:10:"created_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_at";a:6:{s:5:"Field";s:10:"updated_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}}}') on duplicate key update `expiration` = values(`expiration`), `key` = values(`key`), `value` = values(`value`), 0.28
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.ajax_get', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.55
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.ajax_get_list', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.72
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.33
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.options', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('cities.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('companies.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('companies.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('dashboard', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('dashboard.ajax_admin_role_counters', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('department.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.19
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 12.6
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.26
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('designation.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('developer.laravel_routes_index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('developer.sql_log', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('employee.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('home', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('login', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('logout', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('logs.email', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.36
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.confirm', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.email', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.request', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.reset', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('password.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.ajax_delete', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.ajax_get_permissions', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.46
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.ajax_request_access', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.54
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.assign', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.assign_to_many', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 6.42
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('permissions.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('public.', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('register', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 2.67
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.78
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 7.91
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 10.78
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.9
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 5.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 6.96
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 1.76
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('role.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('sanctum.csrf-cookie', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('settings.general', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.57
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.ajax_get', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('staff-type.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 8.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.show', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.33
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('state.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('storage.local', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.change.password', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.create', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.de_activate', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.destroy', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.edit', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.index', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.my.profile', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.store', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('user.update', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `route_names` (`name`, `updated_at`, `created_at`) values ('verify.otp', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.26
+insert into `cache` (`expiration`, `key`, `value`) values ('2080712684', 'laravel_cache_table-info-role_route_names', 'a:1:{s:7:"columns";a:7:{s:2:"id";a:6:{s:5:"Field";s:2:"id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"PRI";s:7:"Default";N;s:5:"Extra";s:14:"auto_increment";}s:7:"role_id";a:6:{s:5:"Field";s:7:"role_id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"MUL";s:7:"Default";N;s:5:"Extra";s:0:"";}s:13:"route_name_id";a:6:{s:5:"Field";s:13:"route_name_id";s:4:"Type";s:19:"bigint(20) unsigned";s:4:"Null";s:2:"NO";s:3:"Key";s:3:"MUL";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_at";a:6:{s:5:"Field";s:10:"created_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_at";a:6:{s:5:"Field";s:10:"updated_at";s:4:"Type";s:9:"timestamp";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"created_by";a:6:{s:5:"Field";s:10:"created_by";s:4:"Type";s:10:"bigint(20)";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}s:10:"updated_by";a:6:{s:5:"Field";s:10:"updated_by";s:4:"Type";s:10:"bigint(20)";s:4:"Null";s:3:"YES";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}}}') on duplicate key update `expiration` = values(`expiration`), `key` = values(`key`), `value` = values(`value`), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '12', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.33
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '19', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '15', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '21', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '18', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '22', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '17', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '28', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.26
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '24', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.25
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '30', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.24
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '27', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '31', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '26', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '39', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '35', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '41', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.29
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '38', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '42', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.27
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '37', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '10', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '11', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '6', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '3', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '8', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '5', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '9', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '4', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '7', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '77', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '73', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '79', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '76', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '80', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '75', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '70', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '95', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '91', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '97', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '94', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '98', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.23
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '93', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '65', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '61', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '67', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '64', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '68', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '63', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.22
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '33', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.21
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '32', '1', '2025-12-10 07:44:44', '2025-12-10 07:44:44'), 0.2
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 0.24

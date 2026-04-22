@@ -1,0 +1,8 @@
+Query,Time-In-MilliSeconds
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '295', '1', '2025-08-29 06:50:55', '2025-08-29 06:50:55'), 3.37
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '291', '1', '2025-08-29 06:50:55', '2025-08-29 06:50:55'), 2.55
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '297', '1', '2025-08-29 06:50:55', '2025-08-29 06:50:55'), 2.64
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '294', '1', '2025-08-29 06:50:55', '2025-08-29 06:50:55'), 2.17
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '298', '1', '2025-08-29 06:50:55', '2025-08-29 06:50:55'), 2.02
+insert into `role_route_names` (`role_id`, `route_name_id`, `created_by`, `updated_at`, `created_at`) values ('1', '293', '1', '2025-08-29 06:50:55', '2025-08-29 06:50:55'), 1.75
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 2.46

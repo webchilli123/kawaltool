@@ -1,0 +1,2 @@
+Query,Time-In-MilliSeconds
+delete from `cache` where `key` in ('laravel_cache_menu_user_1', 'laravel_cache_illuminate:cache:flexible:created:menu_user_1'), 1.86
