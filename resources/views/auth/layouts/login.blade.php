@@ -64,8 +64,8 @@
                                     class="img-fluid" src="{{ $company->logo }}" alt="logo"></a>
                         </div> --}}
                         <div><a class="logo" href="{{ route('home') }}"><img class="img-fluid for-light m-auto"
-                                    src="{{ asset('files/Company/logo-dark.png') }}" alt="looginpage"><img
-                                    class="img-fluid" src="{{ asset('files/Company/logo-dark.png') }}" alt="logo"></a>
+                                    src="{{ asset('files/Company/party.jpg') }}" alt="looginpage"><img
+                                    class="img-fluid" src="{{ asset('files/Company/party.jpg') }}" alt="logo"></a>
                         </div>
                         @yield('content')
                     </div>
